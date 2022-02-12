@@ -10,7 +10,6 @@ defmodule BudgetNotifier.Application do
     children = [
       # Starts a worker by calling: BudgetNotifier.Worker.start_link(arg)
       # {BudgetNotifier.Worker, arg}
-      :elixir_google_spreadsheets
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

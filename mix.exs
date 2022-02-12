@@ -15,7 +15,9 @@ defmodule BudgetNotifier.MixProject do
   def application do
     [
       extra_applications: [:logger],
-      mod: {BudgetNotifier.Application, []}
+      mod: {BudgetNotifier.Application, []},
+
+      applications: [:elixir_google_spreadsheets]
     ]
   end
 
